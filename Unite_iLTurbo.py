@@ -1,4 +1,9 @@
+#!/usr/bin/python
+
+# https://github.com/ilturbo
+
 import re
+
 inputList = []
 for file in ['File1.txt','File2.txt']:
     with open(file,'r') as infile:
